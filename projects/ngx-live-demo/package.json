@@ -1,0 +1,38 @@
+{
+  "name": "ngx-live-demo",
+  "version": "1.0.1",
+  "description": "An example package for a tutorial.",
+  "keywords": [
+    "example",
+    "package",
+    "tutorial"
+  ],
+  "homepage": "https://github.com/UserName/package-name",
+  "bugs": {
+    "url": "https://github.com/UserName/package-name/issues",
+    "email": "your-public-email@example.com"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UserName/package-name.git"
+  },
+  "author": "Umang <patwa.jain@yahoo.com> (https://iamusp.github.io/umang/)",
+  "license": "MIT",
+  "private": false,
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "engineStrict": true,
+  "peerDependencies": {
+    "@angular/common": "^9.1.13",
+    "@angular/core": "^9.1.13"
+  },
+  "dependencies": {
+    "tslib": "^1.10.0"
+  }
+
+}
